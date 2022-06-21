@@ -8,6 +8,6 @@ namespace uHelper
 {
     internal class EditorHelper
     {
-        // Console
+        // Console  
     }
 }
