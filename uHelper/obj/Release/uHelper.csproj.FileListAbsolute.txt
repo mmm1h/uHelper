@@ -1,0 +1,6 @@
+D:\Work\uHelper\uHelper\bin\Release\uHelper.dll
+D:\Work\uHelper\uHelper\bin\Release\uHelper.pdb
+D:\Work\uHelper\uHelper\obj\Release\uHelper.csproj.AssemblyReference.cache
+D:\Work\uHelper\uHelper\obj\Release\uHelper.csproj.CoreCompileInputs.cache
+D:\Work\uHelper\uHelper\obj\Release\uHelper.dll
+D:\Work\uHelper\uHelper\obj\Release\uHelper.pdb

@@ -1,0 +1,6 @@
+D:\Work\uHelper\uHelper\bin\Debug\uHelper.dll
+D:\Work\uHelper\uHelper\bin\Debug\uHelper.pdb
+D:\Work\uHelper\uHelper\obj\Debug\uHelper.csproj.AssemblyReference.cache
+D:\Work\uHelper\uHelper\obj\Debug\uHelper.csproj.CoreCompileInputs.cache
+D:\Work\uHelper\uHelper\obj\Debug\uHelper.dll
+D:\Work\uHelper\uHelper\obj\Debug\uHelper.pdb
