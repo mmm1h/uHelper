@@ -37,6 +37,7 @@ namespace uHelper
             Directory.CreateDirectory(path + "/BaseResources/Scenes");
             Directory.CreateDirectory(path + "/BaseResources/Shader");
             Directory.CreateDirectory(path + "/BaseResources/Texture");
+            Directory.CreateDirectory(path + "/BaseResources/Mesh");
 
             AssetDatabase.Refresh();
         }
