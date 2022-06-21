@@ -26,6 +26,7 @@ namespace uHelper
 
     class EditorHelper
     {
+        [MenuItem("叶芯蕊/创建文件夹")]
         public static void CreateFolder()
         {
             string path = Application.dataPath;
