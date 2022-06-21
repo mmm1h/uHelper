@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using UnityEngine;
+using UnityEditor;
+using System.IO;
 
 namespace uHelper
 {
@@ -28,10 +26,32 @@ namespace uHelper
 
     class EditorHelper
     {
-        static void Main(string[] args)
+        public static void CreateFolder()
         {
-            List<string> str = new List<string> { "Test" };
-            Console.WriteLine(str.Count);
+            string path = Application.dataPath;
+            Directory.CreateDirectory(path + "/BaseResources");
+            Directory.CreateDirectory(path + "/BaseResources/Animation");
+            Directory.CreateDirectory(path + "/BaseResources/Material");
+            Directory.CreateDirectory(path + "/BaseResources/Prefab");
+            Directory.CreateDirectory(path + "/BaseResources/Scenes");
+            Directory.CreateDirectory(path + "/BaseResources/Shader");
+            Directory.CreateDirectory(path + "/BaseResources/Texture");
+
+            AssetDatabase.Refresh();
+        }
+
+        [MenuItem("叶芯蕊/创建材质球X5")]
+        public static void CreateMaterial()
+        {
+
+            string path = Application.dataPath + "/BaseResources/Material";
+            for (int i = 0; i < 5; i++)
+            {
+                Material mat = new Material(Shader.Find("Standard"));
+                AssetDatabase.CreateAsset(mat, string.Format("Assets/BaseResources/Material/mat_{0}.mat", System.Guid.NewGuid()));
+            }
+            Debug.Log("创建材质球X5");
+            AssetDatabase.Refresh();
         }
 
     }
