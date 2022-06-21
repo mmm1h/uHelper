@@ -42,4 +42,4 @@ jobs:
         draft: false
         prerelease: false
         files: |
-          uHelper.dll
+          D:\a\uHelper\uHelper\bin\Release\uHelper.dll
