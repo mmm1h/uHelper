@@ -4,3 +4,12 @@ D:\Work\uHelper\uHelper\obj\Release\uHelper.csproj.AssemblyReference.cache
 D:\Work\uHelper\uHelper\obj\Release\uHelper.csproj.CoreCompileInputs.cache
 D:\Work\uHelper\uHelper\obj\Release\uHelper.dll
 D:\Work\uHelper\uHelper\obj\Release\uHelper.pdb
+E:\CS\HM\uHelper\bin\Release\uHelper.dll
+E:\CS\HM\uHelper\bin\Release\uHelper.pdb
+E:\CS\HM\uHelper\bin\Release\UnityEditor.dll
+E:\CS\HM\uHelper\bin\Release\UnityEngine.dll
+E:\CS\HM\uHelper\obj\Release\uHelper.csproj.AssemblyReference.cache
+E:\CS\HM\uHelper\obj\Release\uHelper.csproj.CoreCompileInputs.cache
+E:\CS\HM\uHelper\obj\Release\uHelper.csproj.CopyComplete
+E:\CS\HM\uHelper\obj\Release\uHelper.dll
+E:\CS\HM\uHelper\obj\Release\uHelper.pdb
